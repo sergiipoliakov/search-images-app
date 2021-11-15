@@ -10,6 +10,7 @@ import {
 
 import axios from "axios";
 axios.defaults.baseURL = "https://api.unsplash.com";
+
 const client_id = "6FzO5xD6aLCqxG1BLnf4VihxKD2N2XKQpiKczzgwiUI";
 
 const fetchAllImages = () => async (dispatch) => {

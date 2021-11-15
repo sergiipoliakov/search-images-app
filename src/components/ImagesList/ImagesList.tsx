@@ -44,7 +44,7 @@ export const ImagesList: React.FC<IProps> = ({ images }) => {
 							loading="lazy"
 						/>
 						<ImageListItemBar
-							title={item?.tags[0].title}
+							title={item?.tags[0]?.title}
 							subtitle={item?.alt_description}
 							actionIcon={
 								<IconButton
